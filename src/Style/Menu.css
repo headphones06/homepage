@@ -1,0 +1,11 @@
+#menu {
+  text-align: center;
+  min-height: 300px;
+  width: 80%;
+  background-color: gray;
+  margin-left: 3px;
+}
+
+#menu-list {
+  font-size: 20px;
+}

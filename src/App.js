@@ -1,8 +1,8 @@
 import React from "react";
-import{ BrowserRouter, Routes, Route } from "react-router-dom";
-import {Home} from "./Home/Home.js";
-import {Info} from "./Info/Info.js";
-import {Works} from "./Works/Works.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./Pages/Home.js";
+import { Info } from "./Pages/Info.js";
+import { Works } from "./Pages/Works.js";
 
 export default function App() {
   return (
