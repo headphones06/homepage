@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/homepage/static/css/main.c8d87ece.css",
+    "main.js": "/homepage/static/js/main.64267604.js",
+    "static/js/787.3a2771b6.chunk.js": "/homepage/static/js/787.3a2771b6.chunk.js",
+    "static/media/chara.png": "/homepage/static/media/chara.7bd9c9fe83e9d52ea714.png",
+    "static/media/年賀2021.png": "/homepage/static/media/年賀2021.a974f86a2191cdb80d13.png",
+    "static/media/PlagueDoctor.png": "/homepage/static/media/PlagueDoctor.1eb26b6e1a49f4e3896c.png",
+    "static/media/icon.png": "/homepage/static/media/icon.c7662166b21dca8d557a.png",
+    "index.html": "/homepage/index.html",
+    "main.c8d87ece.css.map": "/homepage/static/css/main.c8d87ece.css.map",
+    "main.64267604.js.map": "/homepage/static/js/main.64267604.js.map",
+    "787.3a2771b6.chunk.js.map": "/homepage/static/js/787.3a2771b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8d87ece.css",
+    "static/js/main.64267604.js"
+  ]
+}
