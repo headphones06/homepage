@@ -20,7 +20,7 @@ export function Info() {
           <p>
             <img src={iconImage} alt="アイコン" height="150" />
             <br />
-            1998年6月12日産まれ
+            6月12日産まれ
             <br />
             始めはCGクリエイターとして働くために活動していた。
             <br />
