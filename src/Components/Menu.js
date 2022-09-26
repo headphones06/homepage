@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Style/Menu.css";
+import "../Style/Menu.scss";
 
 export function Menu() {
   return (
-    <div id="menu">
-      メニュー
+    <div className="menu">
+      <p>メニュー</p>
       <nav>
-        <ul id="menu-list">
+        <ul className="menu-list">
           <li>
             <Link to={"/info"}>自己紹介</Link>
           </li>

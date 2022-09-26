@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Style/Home.css";
 import { Header } from "../Components/Header";
 import { Menu } from "../Components/Menu";
+import "../Style/Page.scss";
 
 export function Home() {
   return (
@@ -14,15 +14,16 @@ export function Home() {
         <Menu />
       </div>
       <div className="list">
-        <p className="title">ようこそ</p>
-        <div className="item1">
+        <h2 className="title">ようこそ</h2>
+        <div className="pages">
           <Link to={"/info"}>自己紹介</Link>
-          <p>経歴を記載しています。</p>
+          <p className="pages__info">経歴を記載しています。</p>
         </div>
-        <div className="item2">
+        <div className="pages">
           <Link to={"/works"}>作品集</Link>
-          <p>大小問わず、作品を掲載しています。</p>
+          <p className="pages__info">大小問わず、作品を掲載しています。</p>
         </div>
+        <p>最終更新日　2022年9月26日</p>
       </div>
       <footer> </footer>
     </div>

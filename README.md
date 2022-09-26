@@ -6,5 +6,6 @@
 ###　ページ構成
 
 Home
--Profile
--Work（作品集）
+|
+--Profile
+--Work（作品集）
