@@ -6,7 +6,7 @@ import { Works } from "./Pages/Works.js";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path={"/"} element={<Home />} />
         <Route path={"/info"} element={<Info />} />
