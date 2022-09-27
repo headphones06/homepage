@@ -16,14 +16,18 @@ export function Home() {
       <div className="list">
         <h2 className="title">ようこそ</h2>
         <div className="pages">
-          <Link to={"/info"}>自己紹介</Link>
+          <Link to={"/info"} className="link">
+            自己紹介
+          </Link>
           <p className="pages__info">経歴を記載しています。</p>
         </div>
         <div className="pages">
-          <Link to={"/works"}>作品集</Link>
+          <Link to={"/works"} className="link">
+            作品集
+          </Link>
           <p className="pages__info">大小問わず、作品を掲載しています。</p>
         </div>
-        <p>最終更新日　2022年9月26日</p>
+        <p className="days">最終更新日　2022年9月26日</p>
       </div>
       <footer> </footer>
     </div>

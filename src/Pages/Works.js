@@ -23,21 +23,21 @@ export function Works() {
           <p>
             <img src={workImage1} alt="icon" />
             <br />
-            アイコン用に作成した画像
+            アイコン
           </p>
         </div>
         <div className="item">
           <p>
             <img src={workImage2} alt="年賀状2021" />
             <br />
-            2021年の年賀状に使った作品
+            2021年の年賀状
           </p>
         </div>
         <div className="item">
           <p>
             <img src={workImage3} alt="pest doctor" />
             <br />
-            ポートフォリオに載せるために作成した作品
+            ペスト医師
           </p>
         </div>
       </div>

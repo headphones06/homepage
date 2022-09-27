@@ -7,11 +7,11 @@ export function Menu() {
     <div className="menu">
       <p>メニュー</p>
       <nav>
-        <ul className="menu-list">
-          <li>
+        <ul className="menu__list">
+          <li className="menu__item">
             <Link to={"/info"}>自己紹介</Link>
           </li>
-          <li>
+          <li className="menu__item">
             <Link to={"/works"}>作品集</Link>
           </li>
         </ul>

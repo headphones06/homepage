@@ -1,18 +1,24 @@
 .menu {
   text-align: center;
-  min-height: 300px;
-  width: 90%;
   background-color: #aaa;
   margin-left: 7px;
   border-radius: 20px;
+  height: 200px;
 
   p {
     margin: auto;
+    font-size: 30px;
   }
 
-  .menu-list {
+  &__list {
+    min-width: 120px;
     text-align: start;
     font-size: 20px;
     margin: auto;
+  }
+
+  &__item {
+    width: auto;
+    text-align: start;
   }
 }
