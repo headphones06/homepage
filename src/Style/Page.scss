@@ -4,9 +4,14 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  position: relative;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 150px 1fr;
+  min-height: 100vh;
   font-size: clamp(20px, 3vw, 30px);
   gap: 3px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .header {
@@ -18,17 +23,17 @@ body {
 }
 
 .menu {
-  grid-column: 1 / 2;
+  max-width: 200px;
 }
 
 .list {
-  grid-column: 2 / 4;
-}
-
-.title {
-  color: black;
-  font-size: 30px;
-  margin: 1px;
+  text-align: center;
+  .title {
+    text-align: start;
+    color: black;
+    font-size: 30px;
+    margin: 1px;
+  }
 }
 
 .pages {
@@ -47,7 +52,9 @@ body {
 }
 
 .item {
-  display: inline-block;
+  display: inline-flex;
+  max-width: 500px;
+  align-items: center;
   background-color: #fff;
   border: solid;
   border-color: black;
@@ -61,7 +68,18 @@ body {
   }
 }
 
+.info {
+  text-align: start;
+}
+
 footer {
+  width: 100vw;
   text-align: center;
-  background-color: teal;
+  position: absolute;
+  bottom: 0;
+  background-color: olivedrab;
+  p {
+    font-size: 20px;
+    margin: auto;
+  }
 }

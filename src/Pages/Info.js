@@ -17,7 +17,7 @@ export function Info() {
       <div className="list">
         <h2 className="title">自己紹介</h2>
         <div>
-          <p>
+          <p className="info">
             <img src={iconImage} alt="アイコン" height="150" />
             <br />
             6月12日産まれ
@@ -29,7 +29,9 @@ export function Info() {
           </p>
         </div>
       </div>
-      <footer> </footer>
+      <footer>
+        <p>HP</p>
+      </footer>
     </div>
   );
 }

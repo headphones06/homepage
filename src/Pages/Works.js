@@ -41,7 +41,9 @@ export function Works() {
           </p>
         </div>
       </div>
-      <footer> </footer>
+      <footer>
+        <p>HP</p>
+      </footer>
     </div>
   );
 }

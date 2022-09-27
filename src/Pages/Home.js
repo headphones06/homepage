@@ -29,7 +29,9 @@ export function Home() {
         </div>
         <p className="days">最終更新日　2022年9月26日</p>
       </div>
-      <footer> </footer>
+      <footer>
+        <p>HP</p>
+      </footer>
     </div>
   );
 }
