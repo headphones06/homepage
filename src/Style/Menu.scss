@@ -1,9 +1,10 @@
 .menu {
   text-align: center;
-  background-color: #aaa;
+  background: #c6e4ff;
+  border-bottom: solid 6px #aac5de;
   margin-left: 7px;
   border-radius: 20px;
-  height: 200px;
+  max-width: 200px;
 
   p {
     margin: auto;
@@ -20,5 +21,6 @@
   &__item {
     width: auto;
     text-align: start;
+    border-bottom: none;
   }
 }

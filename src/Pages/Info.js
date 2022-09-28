@@ -18,15 +18,13 @@ export function Info() {
         <h2 className="title">自己紹介</h2>
         <div>
           <p className="info">
-            <img src={iconImage} alt="アイコン" height="150" />
-            <br />
             6月12日産まれ
             <br />
             始めはCGクリエイターとして働くために活動していた。
             <br />
             現在はフロントエンジニア志望。
-            <br />
           </p>
+          <img src={iconImage} alt="アイコン" height="150" />
         </div>
       </div>
       <footer>

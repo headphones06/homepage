@@ -9,13 +9,19 @@ export function Header() {
         <p className="headerTitle">自己紹介HP</p>
         <ul className="headerMenu">
           <li className="headerMenu__item">
-            <Link to={"/"}>HOME</Link>
+            <Link to={"/"} className="link">
+              HOME
+            </Link>
           </li>
           <li className="headerMenu__item">
-            <Link to={"/info"}>自己紹介</Link>
+            <Link to={"/info"} className="link">
+              自己紹介
+            </Link>
           </li>
           <li className="headerMenu__item">
-            <Link to={"/works"}>作品集</Link>
+            <Link to={"/works"} className="link">
+              作品集
+            </Link>
           </li>
         </ul>
       </header>

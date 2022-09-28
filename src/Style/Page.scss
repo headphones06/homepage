@@ -1,5 +1,6 @@
 body {
   background-color: bisque;
+  font-family: sans-serif;
 }
 
 .container {
@@ -22,31 +23,31 @@ body {
   font-size: 20px;
 }
 
-.menu {
-  max-width: 200px;
-}
-
 .list {
   text-align: center;
   .title {
     text-align: start;
     color: black;
     font-size: 30px;
-    margin: 1px;
+    background: transparent; /*背景透明に*/
+    border-left: solid 5px #7db4e6; /*左線*/
+    margin: 5px;
+    padding: 0.15em 0.5em;
   }
+}
+
+.link {
+  color: black;
+  text-decoration: none;
 }
 
 .pages {
   text-align: start;
   color: white;
   background-color: #aaa;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  .link {
-    font-size: 30px;
-  }
+  margin: 0px 15px 15px 4vw;
   &__info {
-    font-size: 15px;
+    font-size: 18px;
     margin: auto;
   }
 }
@@ -55,9 +56,9 @@ body {
   display: inline-flex;
   max-width: 500px;
   align-items: center;
-  background-color: #fff;
-  border: solid;
-  border-color: black;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   margin: 3px;
   padding-left: 10px;
   padding-right: 10px;
@@ -70,6 +71,22 @@ body {
 
 .info {
   text-align: start;
+  position: relative;
+  padding: 0.5em 0.7em;
+  margin: 1em 1em;
+  background: #e6f4ff;
+  color: #5c98d4;
+  font-weight: bold;
+}
+.info:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 48%;
+  border: 15px solid transparent;
+  border-top: 15px solid #e6f4ff;
+  width: 0;
+  height: 0;
 }
 
 footer {
