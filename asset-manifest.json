@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.8fd95835.css",
-    "main.js": "/homepage/static/js/main.a12a02d5.js",
+    "main.css": "/homepage/static/css/main.7ba48a5c.css",
+    "main.js": "/homepage/static/js/main.4d2b1cfe.js",
     "static/js/787.3a2771b6.chunk.js": "/homepage/static/js/787.3a2771b6.chunk.js",
+    "static/media/haloween2022.png": "/homepage/static/media/haloween2022.79377fba5b47c962970d.png",
     "static/media/chara.png": "/homepage/static/media/chara.7bd9c9fe83e9d52ea714.png",
     "static/media/年賀2021.png": "/homepage/static/media/年賀2021.a974f86a2191cdb80d13.png",
     "static/media/PlagueDoctor.png": "/homepage/static/media/PlagueDoctor.1eb26b6e1a49f4e3896c.png",
     "static/media/icon.png": "/homepage/static/media/icon.c7662166b21dca8d557a.png",
     "index.html": "/homepage/index.html",
-    "main.8fd95835.css.map": "/homepage/static/css/main.8fd95835.css.map",
-    "main.a12a02d5.js.map": "/homepage/static/js/main.a12a02d5.js.map",
+    "main.7ba48a5c.css.map": "/homepage/static/css/main.7ba48a5c.css.map",
+    "main.4d2b1cfe.js.map": "/homepage/static/js/main.4d2b1cfe.js.map",
     "787.3a2771b6.chunk.js.map": "/homepage/static/js/787.3a2771b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fd95835.css",
-    "static/js/main.a12a02d5.js"
+    "static/css/main.7ba48a5c.css",
+    "static/js/main.4d2b1cfe.js"
   ]
 }
